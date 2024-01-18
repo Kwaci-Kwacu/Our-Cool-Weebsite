@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+body{
+    background-color: rgb(171, 171, 133);
+}
+
+ul{
+    list-style-type: none;
+    background-color: grey;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    padding: 10px 16px;
+    color: white;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: rgb(198, 189, 189);
+}
+
+.main{
+    padding: 20px 25px;
+}
+
+.main h1{
+    font-size: 40px;
+}
